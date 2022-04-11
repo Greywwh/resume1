@@ -1,0 +1,69 @@
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+font-size: 1.5rem;
+text-align: center;
+}
+nav li {
+display: inline-block;
+}
+
+nav {
+border: 1px solid #333;
+margin: 5rem auto;
+background-color: #eee;
+background-image: url("https://assets.codepen.io/296057/lil-graydots.png");
+border-bottom: 5px solid #00bff3;
+border-top: 5px solid #00bff3;
+}
+
+nav a {
+color: #00bff3;
+text-decoration: none;
+font-size: 1.5rem;
+font-weight: 600;
+display: block;
+padding: 0.5rem 1rem;
+  
+}
+
+nav a:focus {
+background-color: #f0c808;
+color: black;
+}
+nav a:hover {
+background-color: #f0c808;
+color: #ff583d;
+background-image: url("https://assets.codepen.io/296057/lil-yellowdots.png");
+}
+.active {
+color: #ff583d;
+background-color: #c5e5ed;
+background-image: url("https://assets.codepen.io/296057/lil-bluedots.png");
+}
+
+html {
+box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+
+body {
+/* Old browsers */
+background: #FFFF99;
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(-45deg, #ffcccc, #00ffff);
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(-45deg, #35577D, #0040ff);
+margin: 0;
+padding: 0;
+  background-image: url("https://img.zcool.cn/community/0180095db95d26a8012163bae1d53d.jpg@3000w_1l_0o_100sh.jpg");
+background-size: cover;
+background-position: left;
+height: 1200px;
+}
