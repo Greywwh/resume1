@@ -68,7 +68,36 @@ height: 1200px;
 }
 
 
+caption{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: medium;
+    color: #333;
 
+}
+body{
+    font-family: sans-serif;
+}
+
+th, td{
+    border: 1px solid rgb(114,7,7);
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+table {
+    border-collapse: collapse;
+    border: 5px solid rgb(23,6,122);
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+}
+thead th{
+    width: 10%;
+    background-color: #333;
+    color: white;
+}
 
 
 
